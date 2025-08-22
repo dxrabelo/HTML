@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
 
     <title>Meu Perfil</title>
 </head>
@@ -13,67 +19,78 @@
 
     <!-- Cabeçalho da Página -->
     <header>
-        <h1>Bem-vindo ao meu perfil</h1>
+        <div class="left">
+            <h1>Bem-vindo ao meu perfil</h1>
+        </div>
 
-        <!-- Título do cabeçalho -->
-        <h1>Meu Perfil</h1>
+        <div class="center">
+            <span class="subtitulo" style="color: #ffffff;">Desenvolvedora Full Stack</span>
+        </div>
 
-        <!-- Menu de Navegação -->
-        <nav>
+        <nav class="right">
             <ul>
                 <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="contato.html" target="_blank">Contato</a></li>
             </ul>
         </nav>
-
     </header>
 
-    <!-- Seção Principal da Página (main) -->
-    <main>
 
-        <!-- Seção Sobre -->
-        <section id="sobre">
+    <div class="container">
 
-            <!-- Título da Seção -->
-            <h2>Sobre Mim</h2>
+        <!-- Seção Principal da Página (main) -->
+        <main>
 
-            <article>
+            <section id="sobre">
 
-                <img src="./assets/img/user_01.svg" width="150" alt="Foto do criador desse conteúdo" />
+                <!-- Título da Seção -->
+                <h2>Sobre Mim</h2>
 
-                <!-- Texto do Perfil -->
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eius non, impedit autem consequuntur enim maxime architecto doloremque assumenda sapiente nihil ut
-                    nostrum hic nulla saepe voluptates obcaecati quo nemo reiciendis!
-                </p>
-            </article>
-        </section>
+                <article>
 
-        <!-- Seção Vídeo -->
-        <section id="video">
+                    <img src="./assets/img/daliane.jpg" width="250" alt="Foto do criador desse conteúdo" />
 
-            <h2>Meu Vídeo de Apresentação</h2>
+                    <!-- Texto do Perfil -->
+                    <p>
+                        Olá, meu nome é <strong>Daliane Rabelo</strong>, tenho 21 anos. Sou estudante de Gestão da
+                        Tecnologia da
+                        Informação e Desenvolvedora Full Stack, apaixonada por tecnologia, e resolução de problemas.
+                        Atualmente, foco no desenvolvimento de aplicações web
+                        modernas e bem estruturadas, tanto no front-end quanto no back-end, com conhecimentos em
+                        <b>HTML,
+                            CSS, JavaScript, TypeScript, React, Node.js, MySQL e PostgreSQL</b>. Tenho experiência com
+                        versionamento com Git, metodologias ágeis e design responsivo, e estou sempre em busca de crescer,
+                        colaborar em equipe e agregar valor através da tecnologia.
+                    </p>
+                </article>
+            </section>
 
-            <!-- Vídeo da Seção -->
-            <figure>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SEU_VIDEO_ID" frameborder="0"
-                    allowfullscreen></iframe>
-            </figure>
+            <!-- Seção Vídeo -->
+            <section id="video">
 
-        </section>
+                <h2>Apresentação</h2>
 
-    </main>
+                <!-- Vídeo da Seção -->
+                <figure>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SEU_VIDEO_ID" frameborder="0"
+                        allowfullscreen></iframe>
+                </figure>
+
+            </section>
+
+        </main>
+
+    </div>
 
     <!-- Rodapé da Página -->
     <footer>
 
         <section>
 
-                <a href="https://www.linkedin.com/in/daliane-rabelo-1036872a1/" target="_blank">
+            <a href="https://www.linkedin.com/in/daliane-rabelo-1036872a1/" target="_blank">
                 <img src="assets/img/linkedin.svg" width="32" alt="LinkedIn">
-            </a>    
+            </a>
 
             <a href="https://github.com/dxrabelo" target="_blank">
                 <img src="assets/img/github.svg" width="32" alt="GitHub">
@@ -84,10 +101,13 @@
             </a>
 
         </section>
-
-        <h3>
-            Feito com <span style="color: red;">❤️</span> por <a href="https://www.linkedin.com/in/daliane-rabelo-1036872a1/">Daliane Rabelo - 2025</a>
+        <h3 style="color: #ffffff;">
+            Feito com <span style="color: red;">❤️</span> por
+            <a href="https://www.linkedin.com/in/daliane-rabelo-1036872a1/" target="_blank" style="color: #ffffff;">
+                Daliane Rabelo - 2025
+            </a>
         </h3>
+
     </footer>
 </body>
 
